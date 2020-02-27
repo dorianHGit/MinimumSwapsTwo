@@ -25,6 +25,11 @@ public class SwapTest {
         assertEquals(0, solution.minSwaps(arr));
     }
 
-    
+    @Test
+    public void testBestCase(){
+        int[] arr = {1,2,3,4,5};
+        assertEquals(0, solution.minSwaps(arr));
+    }
+
 
 }
